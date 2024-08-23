@@ -19,8 +19,7 @@ In this exercise, you will learn how to encode sensor data into a hexadecimal pa
 ### Example Output
 
 Your output should resemble this on the Serial Monitor:
-
-Encoded Payload: 09 3E 04 FF 00 .. .. .. ..
+`Encoded Payload: 09 3E 04 FF 00 .. .. .. ..`
 
 
 ### Submission
@@ -55,8 +54,8 @@ function decodeUplink(input) {
         data: data
     };
 }
-
-Testing Your Decoder
+```
+### Testing Your Decoder
 
     Copy your encoded bytes (e.g., 09 3E 04 FF 00 .. .. .. ..) and use the Simulate Uplink feature on TTN to test your decoder.
     Verify that the decoded values match the original sensor readings.
