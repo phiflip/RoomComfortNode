@@ -203,6 +203,15 @@ void loop() {
 
   
   /*--------------------------------------------------------*/
+   /*--------------------------------------------------------*/
+  
+  // Print the full payload in a single line
+  Serial.print("Encoded Payload: ");
+  for (int i = 0; i < 12; i++) {
+    if (appData[i] < 0x10) Serial.print("0");  // Add leading zero for single-digit hex values
+    Serial.print(appData[i], HEX);
+  }
+  Serial.println();  // Move to the next line
   Serial.println("");
 
   delay(30000);
