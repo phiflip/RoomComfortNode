@@ -5,7 +5,7 @@ Welcome to the Troubleshooting section of the WeatherNode repository. This guide
 ## Table of Contents
 
 1. [Issue: CubeCell Not Recognized or No Port Assigned](#Issue-CubeCell-Not-Recognized-or-No-Port-Assigned-in-Arduino-IDE)
-2. [Issue: Inconsistent Data Readings](#issue-inconsistent-data-readings)
+2. [Issue: Node-RED on macOS](#Node-RED-Requires-Superuser-Privileges-on-macOS)
 
 
 ---
@@ -29,9 +29,21 @@ Windows users need to install the CP2102 driver. Follow these steps:
 - If the port still doesn't appear, try using a different USB cable or USB port on your computer.
 - Ensure that the CubeCell board is properly powered and connected.
 
-
 ---
+## Issue: Node-RED Requires Superuser Privileges on macOS
 
+**Description:**  
+On macOS, when starting Node-RED, you may encounter issues with installing packages from the palette if you do not have sufficient privileges.
+
+**Cause:**  
+This occurs because Node-RED needs superuser privileges to modify system-level files and install packages.
+
+**Solution:**  
+To resolve this issue, start Node-RED with superuser privileges by using the following command in the terminal:
+```bash
+sudo node-red
+```
+---
 
 
 
