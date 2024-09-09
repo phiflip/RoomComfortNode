@@ -6,30 +6,28 @@ This document lists all the hardware components required to build the WeatherNod
 
 ## Components
 
-1. **CubeCell HTCC-AB01**
-   - Includes:
+1. **Microcontroller**
+     - CubeCell HTCC-AB01 v2 (Antenna)
      - Mini-Breadboard
-     - Antenna
-     - H1750 (Light Sensor)
+     
 
 2. **Sensors**
-   - **BME680 Sensor:**
-     - Pre-wired in a protective enclosure
-   - **BH1750 Light Sensor**
-   - [Add other sensors here]
+   - BME680 Sensor:
+   - BH1750 Light Sensor
 
 3. **Enclosures**
-   - **Plastic Enclosure:**
-     - Includes:
-       - LiPo Battery
-       - Sealant/Gasket
-   - **3D Printed Enclosures:**
+   - Plastic Enclosure
+   - 3D Printed Enclosures for the BME680:
      - STL files are available in the [`enclosure_stl`](./enclosure_stl) subfolder.
 
 4. **Power Supply**
-   - **Solar Panel:**
-     - Specifications: 60x60 mm, 6V (available from conrad.ch)
-   - **USB Cable**
+   - LiPo Battery (1000 mAh / 3.7 V)
+   - Solar Panel (60x60 mm, 6V)
+   - USB C Cable
+
+5. **Tools**
+   - **Soldering Station:**
+     - A soldering station may be necessary to solder pins to the CubeCell, connect the solar panel, or secure the BME680 sensor connections. Ensure you have a soldering iron, solder wire, and basic soldering skills for this task.
 
 ## Estimated Cost
 
@@ -37,7 +35,5 @@ This document lists all the hardware components required to build the WeatherNod
 - Suggested Suppliers:
   - bastelgarage.ch
   - conrad.ch
-
 ---
 
-For detailed assembly instructions, please refer to the [Setup Guide](../docs/setup_guide.md).
