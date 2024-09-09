@@ -4,7 +4,7 @@ Welcome to the Troubleshooting section of the WeatherNode repository. This guide
 
 ## Table of Contents
 
-1. [Issue: Sensor Disconnects After Prolonged Operation](#Issue: CubeCell Not Recognized or No Port Assigned in Arduino IDE)
+1. [Issue: CubeCell Not Recognized or No Port Assigned](#Issue-CubeCell-Not-Recognized-or-No-Port-Assigned-in-Arduino-IDE)
 2. [Issue: Inconsistent Data Readings](#issue-inconsistent-data-readings)
 
 
