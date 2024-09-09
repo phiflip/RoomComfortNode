@@ -26,7 +26,7 @@ Before starting, ensure you have the following:
 
 - **Hardware:**
   - All information related to the hardware components, including the list of sensors and 3D models for enclosures, can be found in the [`hardware`](./hardware) folder.
-  - **Hardware Requirements:** Detailed information on required hardware components and sensors is available in the [`HARDWARE.md`](./hardware/HARDWARE.md) file.
+  - **Hardware Requirements:** Detailed information on required hardware components and sensors is available in the [`README.md`](./hardware/README.md) file.
   - **Enclosure STL Files:** 3D models for the sensor enclosures are located in the [`enclosure_stl`](./hardware/enclosure_stl) subfolder.
 
 - **Software:**
@@ -37,7 +37,7 @@ Before starting, ensure you have the following:
 ### Setup Instructions
 
 1. **Hardware Assembly:**
-   - Connect the sensors to the CubeCell microcontroller following the wiring diagrams provided in the `/documentation` folder.
+   - Connect the sensors to the CubeCell microcontroller.
 
 2. **CubeCell Programming:**
    - Program the CubeCell with the provided `.ino` files using the Arduino IDE.
