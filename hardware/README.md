@@ -12,7 +12,7 @@ This document lists all the hardware components required to build the WeatherNod
      
 
 2. **Sensors**
-   - BME680 Sensor:
+   - BME680 Sensor
    - BH1750 Light Sensor
 
 3. **Enclosures**
