@@ -34,24 +34,21 @@ Before starting, ensure you have the following:
   - Arduino IDE (for programming the CubeCell)
   - Node-RED (installed locally or on a cloud platform like Oracle or AWS)
   - Google account (for spreadsheet integration)
-  - Git (for cloning the repository and version control)
-
+ 
 ### Setup Instructions
 
 1. **Hardware Assembly:**
    - Connect the sensors to the CubeCell microcontroller following the wiring diagrams provided in the `/documentation` folder.
 
 2. **CubeCell Programming:**
-   - Program the CubeCell with the provided `.ino` files using the Arduino IDE. Instructions on how to install necessary libraries and upload the code can be found in the `setup_guide.md` file.
+   - Program the CubeCell with the provided `.ino` files using the Arduino IDE.
 
 3. **Node-RED Configuration:**
-   - Set up Node-RED on your preferred platform (local or cloud). Detailed instructions for Node-RED setup, including flows for data processing and dashboard customization, are available in the `/node_red` folder.
+   - Set up Node-RED on your preferred platform (local or cloud).
 
 4. **Cloud Integration:**
-   - Integrate with Google Spreadsheets or other cloud services to store and analyze the data. The detailed steps are provided in the `/cloud_integration` folder.
+   - Integrate with Google Spreadsheets or other cloud services to store and analyze the data.
 
-5. **Testing and Troubleshooting:**
-   - Test the full setup by collecting data and visualizing it in the Node-RED dashboard. Refer to the `troubleshooting.md` for common issues and solutions.
 
 ## Documentation
 
