@@ -26,7 +26,6 @@ Before starting, ensure you have the following:
 
 - **Hardware:**
   - All information related to the hardware components, including the list of sensors and 3D models for enclosures, can be found in the [`hardware`](./hardware) folder.
-  - **Hardware Requirements:** Detailed information on required hardware components and sensors is available in the [`README.md`](./hardware/README.md) file.
   - **Enclosure STL Files:** 3D models for the sensor enclosures are located in the [`enclosure_stl`](./hardware/enclosure_stl) subfolder.
 
 - **Software:**
