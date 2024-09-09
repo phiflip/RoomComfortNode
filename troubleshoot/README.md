@@ -4,12 +4,11 @@ Welcome to the Troubleshooting section of the WeatherNode repository. This guide
 
 ## Table of Contents
 
-1. [Issue: CubeCell Not Recognized or No Port Assigned](#Issue-CubeCell-Not-Recognized-or-No-Port-Assigned-in-Arduino-IDE)
-2. [Issue: Node-RED on macOS](#Issue-Node-RED-Requires-Superuser-Privileges-on-macOS)
-3. [PowerShell Script Error on Windows During Node.js/Node-RED Installation](#Issue-PowerShell-Script-Error-on-Windows-During-Node.js/Node-RED-Installation)
-4. [Problems with Git When Installing Additional Packages](#Issue-Problems-with-Git-When-Installing-Additional-Packages)
 
-
+1. [Issue: CubeCell Not Recognized or No Port Assigned in Arduino IDE](#issue-cubecell-not-recognized-or-no-port-assigned-in-arduino-ide)
+2. [Issue: Node-RED Requires Superuser Privileges on macOS](#issue-node-red-requires-superuser-privileges-on-macos)
+3. [Issue: PowerShell Script Error on Windows During Node.js/Node-RED Installation](#issue-powershell-script-error-on-windows-during-nodejsnode-red-installation)
+4. [Issue: Problems with Git When Installing Additional Packages](#issue-problems-with-git-when-installing-additional-packages)
 
 ---
 
