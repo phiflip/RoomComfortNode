@@ -4,76 +4,37 @@ Welcome to the Troubleshooting section of the WeatherNode repository. This guide
 
 ## Table of Contents
 
-1. [Issue: Sensor Disconnects After Prolonged Operation](#issue-sensor-disconnects-after-prolonged-operation)
+1. [Issue: Sensor Disconnects After Prolonged Operation](#Issue: CubeCell Not Recognized or No Port Assigned in Arduino IDE)
 2. [Issue: Inconsistent Data Readings](#issue-inconsistent-data-readings)
-3. [Issue: Compilation Errors](#issue-compilation-errors)
-4. [How to Contribute to this Guide](#how-to-contribute-to-this-guide)
+
 
 ---
 
-## Issue: Sensor Disconnects After Prolonged Operation
+## Issue: CubeCell Not Recognized or No Port Assigned in Arduino IDE
 
 **Description:**  
-After several hours of continuous operation, the sensor may lose connection and stop transmitting data.
+In some cases, especially during the initial setup (e.g., Week 1), the CubeCell board may not be recognized by the Arduino IDE, or no port is assigned.
 
 **Cause:**  
-This issue often arises from an unstable I2C connection or memory overload.
+This issue is typically caused by a missing or incorrect driver for the CP2102 USB-to-UART bridge used by the CubeCell.
 
 **Solution:**  
-- Verify that the I2C connections are secure and that the pull-up resistors are properly sized.
-- Consider implementing a microcontroller reset routine if the sensor disconnects.
+Windows users need to install the CP2102 driver. Follow these steps:
+1. Download and install the CP2102 driver from the official source: [CP2102 Driver](https://www.pololu.com/docs/0J7/all#2).
+2. After installation, restart your computer.
+3. Reconnect the CubeCell board and open the Arduino IDE.
+4. Check if the port is now correctly assigned under `Tools > Port`.
 
-**Example Script:**  
-See `fix_sensor_disconnect.ino` in this directory for a sample script that attempts to automatically reconnect the sensor when a disconnect is detected.
+**Additional Tips:**
+- If the port still doesn't appear, try using a different USB cable or USB port on your computer.
+- Ensure that the CubeCell board is properly powered and connected.
 
----
-
-## Issue: Inconsistent Data Readings
-
-**Description:**  
-The sensor outputs data that fluctuates or shows significant errors.
-
-**Cause:**  
-This can occur due to noise in the sensor environment, power supply instability, or incorrect sensor calibration.
-
-**Solution:**  
-- Ensure that the sensor is properly calibrated according to the manufacturer's guidelines.
-- Add capacitors to the power supply lines to stabilize the voltage.
-- Check for any sources of electromagnetic interference near the sensor.
-
-**Example Script:**  
-See `fix_inconsistent_readings.ino` in this directory for a sample script that applies a filter to smooth out erratic data.
 
 ---
 
-## Issue: Compilation Errors
 
-**Description:**  
-Errors occur during the compilation of the .ino files.
 
-**Cause:**  
-Possible causes include missing libraries, outdated Arduino IDE versions, or incompatible code.
 
-**Solution:**  
-- Ensure all required libraries are installed and up to date.
-- Update the Arduino IDE to the latest version.
-- Check the Arduino forum or documentation for any specific errors you encounter.
-
-**Example Script:**  
-Not applicable. Refer to the specific error message for guidance.
-
----
-
-## How to Contribute to this Guide
-
-If you encounter an issue not listed here or if you have a better solution for a listed issue, feel free to contribute! Here’s how:
-- Fork the repository and create a new branch.
-- Add your issue description and solution in the appropriate format.
-- Submit a pull request with a clear explanation of the changes.
-
-Thank you for helping to improve the WeatherNode project!
-
----
 
 **Note:** This guide is a living document and will be updated as new issues and solutions are identified. Always check for the latest version in the repository.
 
