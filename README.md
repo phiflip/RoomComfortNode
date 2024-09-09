@@ -25,10 +25,9 @@ The WeatherNode project allows you to build a fully functional weather station c
 Before starting, ensure you have the following:
 
 - **Hardware:**
-  - CubeCell microcontroller
-  - Environmental sensors (e.g., temperature, humidity, pressure sensors)
-  - LoRaWAN gateway (optional but recommended)
-  - Breadboard, jumper wires, and other basic electronics components
+  - All information related to the hardware components, including the list of sensors and 3D models for enclosures, can be found in the [`hardware`](./hardware) folder.
+  - **Hardware Requirements:** Detailed information on required hardware components and sensors is available in the [`HARDWARE.md`](./hardware/HARDWARE.md) file.
+  - **Enclosure STL Files:** 3D models for the sensor enclosures are located in the [`enclosure_stl`](./hardware/enclosure_stl) subfolder.
 
 - **Software:**
   - Arduino IDE (for programming the CubeCell)
