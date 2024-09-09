@@ -5,7 +5,10 @@ Welcome to the Troubleshooting section of the WeatherNode repository. This guide
 ## Table of Contents
 
 1. [Issue: CubeCell Not Recognized or No Port Assigned](#Issue-CubeCell-Not-Recognized-or-No-Port-Assigned-in-Arduino-IDE)
-2. [Issue: Node-RED on macOS](#Node-RED-Requires-Superuser-Privileges-on-macOS)
+2. [Issue: Node-RED on macOS](#Issue-Node-RED-Requires-Superuser-Privileges-on-macOS)
+3. [PowerShell Script Error on Windows During Node.js/Node-RED Installation](#Issue-PowerShell-Script-Error-on-Windows-During-Node.js/Node-RED-Installation)
+4. [Problems with Git When Installing Additional Packages](#Issue-Problems-with-Git-When-Installing-Additional-Packages)
+
 
 
 ---
@@ -44,9 +47,35 @@ To resolve this issue, start Node-RED with superuser privileges by using the fol
 sudo node-red
 ```
 ---
+## Issue: PowerShell Script Error on Windows During Node.js/Node-RED Installation
 
+**Description:**  
+On Windows, you might encounter a red error message during the installation of Node.js or when running Node-RED, related to a PowerShell script.
 
+**Cause:**  
+This problem is caused by a restrictive policy that prevents certain scripts from running, or an issue with the `.ps1` PowerShell script.
 
+**Solution:**  
+Navigate to the installation directory where the PowerShell script is located (typically `C:/Users/[YourUserName]/AppData/Roaming/npm`), and rename the `.ps1` script file to something else, for example:
 
+```bash
+Rename "your_script.ps1" to "your_script.pskill"
+```
+---
+## Issue: Problems with Git When Installing Additional Packages
+
+**Description:**  
+When trying to install additional packages for your project, you may encounter issues if Git is not installed on your system.
+
+**Cause:**  
+Git is required for downloading and installing certain Node.js/Node-RED packages that rely on Git repositories.
+
+**Solution:**  
+Ensure that Git is installed on your system. You can download and install Git from the official website: [Git Downloads](https://git-scm.com/downloads).  
+After installation, verify that Git is correctly installed by running the following command in your terminal or command prompt:
+
+```bash
+git --version
+```
 **Note:** This guide is a living document and will be updated as new issues and solutions are identified. Always check for the latest version in the repository.
 
