@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this week, we will explore how to integrate The Things Network (TTN) with Node-Red to visualize and manage the data from our IoT devices. Node-Red is a powerful flow-based development tool for visual programming, particularly suited for IoT applications.
+Here, we will explore how to integrate The Things Network (TTN) with Node-Red to visualize and manage the data from our IoT devices. Node-Red is a powerful flow-based development tool for visual programming, particularly suited for IoT applications.
 
 ## Prerequisites
 
