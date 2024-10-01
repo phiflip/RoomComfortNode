@@ -174,13 +174,9 @@ void loop() {
   Serial.println(appData[3], HEX);
   /*--------------------------------------------------------*/
   // encode atmospheric pressure data
-  appData[4] = highByte(Pressure_payload);
-  appData[5] = lowByte(Pressure_payload);
-
-  //appData[4] = Pressure_payload >> 16; 
-  //appData[5]  = Pressure_payload >> 8;        
-  //appData[6]  = Pressure_payload;       
-
+  appData[4] = Pressure_payload >> 16; 
+  appData[5]  = Pressure_payload >> 8;        
+  appData[6]  = Pressure_payload;       
   Serial.print("Payload pressure: ");
   Serial.print(appData[4], HEX);
   Serial.print(" ");
