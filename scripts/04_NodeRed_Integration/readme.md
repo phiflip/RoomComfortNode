@@ -15,6 +15,9 @@ Here, we will explore how to integrate The Things Network (TTN) with Node-Red to
    npm install -g --unsafe-perm node-red
 
 3. **Additional Node-Red packages**
+```bash
   - `npm install node-red-dashboard`
+```bash
   - `npm install node-red-contrib-moment`
+```bash
   - `npm install node-red-contrib-ttn`
