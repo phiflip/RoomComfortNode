@@ -22,6 +22,3 @@ npm install node-red-dashboard
 ```bash
 npm install node-red-contrib-moment
 ```
-```bash
-npm install node-red-contrib-ttn
-```
