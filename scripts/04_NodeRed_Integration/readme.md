@@ -11,13 +11,17 @@ Here, we will explore how to integrate The Things Network (TTN) with Node-Red to
 
 2. **Install Node-Red**  
    Open your terminal or command prompt and run the following command:
-   ```bash
-   npm install -g --unsafe-perm node-red
-
+```bash
+npm install -g --unsafe-perm node-red
+```
 3. **Additional Node-Red packages**
+
 ```bash
-  - `npm install node-red-dashboard`
+npm install node-red-dashboard
+```
 ```bash
-  - `npm install node-red-contrib-moment`
+npm install node-red-contrib-moment
+```
 ```bash
-  - `npm install node-red-contrib-ttn`
+npm install node-red-contrib-ttn
+```
