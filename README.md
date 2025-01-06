@@ -1,6 +1,6 @@
 # RoomComfortNode
 
-<img src="https://github.com/phiflip/WeatherNode/blob/main/illustrations/logo_icon.png" width="150" alt="RoomComfortNode main logo type">
+<img src="https://github.com/phiflip/RoomComfortNode/blob/main/illustrations/logo_icon.png" width="150" alt="RoomComfortNode main logo type">
 
 **RoomComfortNode** is a versatile and educational indoor environmental monitoring project that uses the power of CubeCell microcontrollers, a range of environmental sensors, and Node-RED for real-time data processing and visualization. This project is designed to provide hands-on experience with IoT (Internet of Things) technologies, data acquisition, cloud integration, and real-time analytics for indoor environments.
 
